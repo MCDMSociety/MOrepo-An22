@@ -1,24 +1,15 @@
 {
-   "contributionName": "Template",
+   "contributionName": "An22",
    "maintainer" : "Lars Relund <junk@relund.dk>",
    "instanceGroups": [
       {
-         "subfolder": "AP",
-         "class": "Assignment",
-         "objectives": 2,
-         "tags": [ "ap", "assignmentProblem", "bi-AP"],
-         "format": [ "raw", "xml" ],
-         "desc": "Instances for the bi-objective assignment problem.",
-         "creator" : "Lars Relund <junk@relund.dk>"
-      },
-      {
-         "subfolder": "MMAP",
-         "class": "Assignment",
-         "objectives": 2,
-         "tags": [ "bi-MMAP", "MMAP", "multi-modal" ],
-         "format": [ "xml" ],
-         "desc": "Instances for the bi-objective multi-modal assignment problem.",
-         "creator" : "Lars Relund <junk@relund.dk>"
+         "subfolder": "CFLP",
+         "class": "Facility Location",
+         "objectives": 3,
+         "tags": [ "UFLP", "facilityLocation"],
+         "format": [ "fgt"],
+         "desc": "Instances for the capacitated facility location problem (converted to fgt format)",
+         "creator" : "Nicolas Forget <nforget@econ.au.dk>"
       }
    ]
 }
